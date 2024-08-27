@@ -53,7 +53,7 @@ public class jajatonto {
                 opcion2 = Integer.parseInt(tdc); // Asignar valor a opcion2
                 switch (opcion2) {
                     case 1:
-                        // Código para la opción 1
+                        
                         break;
                     default:
                         System.out.println("Opcion invalida");
