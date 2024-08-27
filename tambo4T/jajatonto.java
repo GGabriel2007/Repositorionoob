@@ -53,7 +53,8 @@ public class jajatonto {
                 opcion2 = Integer.parseInt(tdc); // Asignar valor a opcion2
                 switch (opcion2) {
                     case 1:
-                        
+                        System.out.println("¿Que ciudad desea eliminar?");
+						if ()
                         break;
                     default:
                         System.out.println("Opcion invalida");
