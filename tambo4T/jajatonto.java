@@ -30,25 +30,25 @@ public class jajatonto {
 
 		case 2:
 			System.out.println("ingrese un departamento:");
-			System.out.println(“1. |Montevideo”);
-			System.out.println(“2. |Artigas”);
-			System.out.println(“3. |Canelones”);
-			System.out.println(“4. |Cerro largo”);
-			System.out.println(“5. |Colonia”);
-			System.out.println(“6. |Durazno”);
-			System.out.println(“7. |Flores”);
-			System.out.println(“8. |Florida”);
-			System.out.println(“9. |Lavalleja”);
-			System.out.println(“10. |Maldonado”);
-			System.out.println(“11. |Paysandú”);
-			System.out.println(“12. |Río negro”);
-			System.out.println(“13. |Rivera”);
-			System.out.println(“14. |Rocha”);
-			System.out.println(“15. |Salto”);
-			System.out.println(“16. |San José”);
-			System.out.println(“17. |Soriano”);
-			System.out.println(“18. |Tacuarembo”);
-			System.out.println(“19. |Treinta y tres”);
+			System.out.println("1. |Montevideo");
+			System.out.println("2. |Artigas");
+			System.out.println("3. |Canelones");
+			System.out.println("4. |Cerro largo");
+			System.out.println("5. |Colonia");
+			System.out.println("6. |Durazno");
+			System.out.println("7. |Flores");
+			System.out.println("8. |Florida");
+			System.out.println("9. |Lavalleja");
+			System.out.println("10. |Maldonado");
+			System.out.println("11. |Paysandú");
+			System.out.println("12. |Río negro");
+			System.out.println("13. |Rivera");
+			System.out.println("14. |Rocha");
+			System.out.println("15. |Salto");
+			System.out.println("16. |San José");
+			System.out.println("17. |Soriano");
+			System.out.println("18. |Tacuarembo");
+			System.out.println("19. |Treinta y tres");
 			tdc = tec2.nextLine();
 			switch (opcion2) {
 			case 1:
