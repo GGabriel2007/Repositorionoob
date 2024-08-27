@@ -26,6 +26,7 @@ public class jajatonto {
 		//elimiar ciudad
 		switch (opcion1) {
 		case 1:
+			break;
 
 		case 2:
 			System.out.println("ingrese un departamento:");
@@ -49,9 +50,9 @@ public class jajatonto {
 			System.out.println(“18. |Tacuarembo”);
 			System.out.println(“19. |Treinta y tres”);
 			tdc = tec2.nextLine();
-			switch (tdc) {
+			switch (opcion2) {
 			case 1:
-				
+
 			default:
 				System.out.println("Opcion invalida");
 				break;
