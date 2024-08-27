@@ -55,7 +55,7 @@ public class jajatonto {
                     case 1:
                         System.out.println("¿Que ciudad desea eliminar?");
 						if (!ciudadn1.equals("vacio") && departamento1 == 1){
-							System.out.println(ciudadn1)
+							System.out.println("|(1) "ciudadn1);
 						}
                         break;
                     default:
