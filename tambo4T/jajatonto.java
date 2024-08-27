@@ -12,7 +12,7 @@ public class jajatonto {
         String tdd, tdc;
         int opcion1, opcion2;
         String departamento0, departamento1, departamento2, departamento3, departamento4, departamento5, departamento6, departamento7, departamento8, departamento9, departamento12, departamento13, departamento14, departamento15, departamento16, departamento17, departamento18, departamento19;
-        String ciudadn0, ciudadn1, ciudadn2, ciudadn3, ciudadn4, ciudadn5, ciudadn6, ciudadn7, ciudadn8, ciudadn9, ciudadn10, ciudadn11, ciudadn12, ciudadn13, ciudadn14, ciudadn15, ciudadn17, ciudadn18, ciudadn19;
+        String ciudadn0 = "Vacio", ciudadn1= "Vacio",ciudadn2 = "Vacio", ciudadn3, ciudadn4, ciudadn5, ciudadn6, ciudadn7, ciudadn8, ciudadn9, ciudadn10, ciudadn11, ciudadn12, ciudadn13, ciudadn14, ciudadn15, ciudadn17, ciudadn18, ciudadn19;
 
         //Menu
         System.out.println("Ingrese una opcion:");
@@ -54,8 +54,8 @@ public class jajatonto {
                 switch (opcion2) {
                     case 1:
                         System.out.println("¿Que ciudad desea eliminar?");
-						if (ciudadn1 != vacio && departamento1 == 1){
-							
+						if (!ciudadn1.equals("vacio") && departamento1 == 1){
+
 						}
                         break;
                     default:
