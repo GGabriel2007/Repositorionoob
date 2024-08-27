@@ -54,7 +54,9 @@ public class jajatonto {
                 switch (opcion2) {
                     case 1:
                         System.out.println("¿Que ciudad desea eliminar?");
-						if (ciudadn1 =!)
+						if (ciudadn1 != vacio && departamento1 == 1){
+							
+						}
                         break;
                     default:
                         System.out.println("Opcion invalida");
