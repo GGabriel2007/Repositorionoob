@@ -58,6 +58,23 @@ public class jajatonto {
 						if (!ciudadn1.equals("vacio") && departamento1 == 1){
 							System.out.println("|("+ciudadid1+") "+ciudadn1);
 						}
+
+                        if (!ciudadn2.equals("vacio") && departamento2 == 1){
+							System.out.println("|("+ciudadid2+") "+ciudadn2);
+						}
+
+                        if (!ciudadn3.equals("vacio") && departamento3 == 1){
+							System.out.println("|("+ciudadid3+") "+ciudadn3);
+						}
+
+                        if (!ciudadn4.equals("vacio") && departamento4 == 1){
+							System.out.println("|("+ciudadid4+") "+ciudadn4);
+						}
+
+                        if (!ciudadn5.equals("vacio") && departamento5
+                         == 1){
+							System.out.println("|("+ciudadid5+") "+ciudadn5);
+						}
                         break;
                     default:
                         System.out.println("Opcion invalida");
