@@ -58,6 +58,9 @@ public class gabriel_testzone {
 						entradadep = tec2.nextLine();
 						if (entradadep == "lista") {
 							System.out.println("Lista de departamentos:");
+							System.out.println("| "Artigas);
+							System.out.println("| Canelones");
+							System.out.println("| Cerro Largo");
 							System.out.println("| ");
 						}
 					}
