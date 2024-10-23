@@ -10,27 +10,29 @@ public class gabriel_testzone {
 		Scanner tec2 = new Scanner(System.in);
 
 		// COMFIGURACION DE VARIABLES
-		int casillas = 30;
+		int casillas = 50;
 
 		String ciudad[] = new String[casillas];
+		String departamentos = new Sttring[casillas]
 		int tambos[] = new int[casillas * 2];
 		int posx[] = new int[casillas];
 		int posy[] = new int[casillas];
 		int centro[] = new int[casillas];
 
 
-		int activo = 1, opcion = 0, entradaposy = 0, entradaposx = 0, entradatambos = 0, entradacentro, entrada1 = 0; String entradaciudad;
+		int activo = 1, opcion = 0, entradaposy = 0, entradaposx = 0, entradatambos = 0, entradacentro, entrada1 = 0; String entradadep, entradaciudad;
 
 		while (activo == 1) {
-			//MENU
+			//MENU--------------------------------------------------------------------------------------------
 			System.out.println("_MENU_");
-			System.out.println("(1)| Añadir Ciudad");
-			System.out.println("(2)| Eliminar Ciudad");
-			System.out.println("(3)| Buscar Ciudad");
+			System.out.println("(1)| Registrar Ciudad");
+			System.out.println("(2)| Eliminar registro");
+			System.out.println("(3)| Buscar Registro");
 			System.out.println("(0)| Volver");
 			opcion = tec1.nextInt();
 
 			switch (opcion) {
+				//REGISTRAR CIUDAD--------------------------------------------------------------------------------
 			case 1:
 				System.out.println("Elija una casilla:");
 				for (int veces = 0 ; veces < casillas ; veces++) {
@@ -63,6 +65,7 @@ public class gabriel_testzone {
 				}
 				break;
 
+				//ELIMINAR REGISTRO---------------------------------------------------------------------------------
 			case 2:
 				System.out.println("Elija una casilla:");
 				for (int veces = 0 ; veces < casillas ; veces++) {
@@ -85,6 +88,7 @@ public class gabriel_testzone {
 				}
 				break;
 
+				//BUSCAR REGISTRO-------------------------------------------------------------
 			case 3:
 				System.out.println("Elija una casilla:");
 				for (int veces = 0 ; veces < casillas ; veces++) {
@@ -100,7 +104,7 @@ public class gabriel_testzone {
 					System.out.println("Numero de centros: "+ centro[opcion]);
 					System.out.println("Numero de tambos: "+ tambos[opcion]);
 					System.out.println("...");
-				}
+				}  //-------------------------------------------------------------------------------------------
 				break;
 			case 0:
 				activo = 0;
