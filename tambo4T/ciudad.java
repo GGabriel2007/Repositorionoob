@@ -2,7 +2,7 @@ package test_zone;
 
 import java.util.*;
 
-public class gabriel_testzone {
+public class cuarto_T {
 
 	public static void main(String[] args) {
 
@@ -13,7 +13,7 @@ public class gabriel_testzone {
 		int casillas = 50;
 
 		String ciudad[] = new String[casillas];
-		String departamentos = new Sttring[casillas]
+		String[] departamentos = new String[casillas];
 		int tambos[] = new int[casillas * 2];
 		int posx[] = new int[casillas];
 		int posy[] = new int[casillas];
@@ -50,15 +50,14 @@ public class gabriel_testzone {
 					entradacentro = tec1.nextInt();
 					System.out.println("Ingresar numero de tambos:");
 					entradatambos = tec1.nextInt();
-
 					int depcount = 1;
-
 					while (depcount == 1) {
-						System.out.println("Ingrese departamento / ingrese ´Lista´para ver lista de departamentos.");
+						System.out.println("Ingrese departamento / ingrese ´lista´ para ver lista de departamentos.");
 						entradadep = tec2.nextLine();
-						if (entradadep == "lista") {
+						entradadep = tec2.nextLine();
+						if (entradadep.equals("lista") {
 							System.out.println("Lista de departamentos:");
-							System.out.println("| "Artigas);
+							System.out.println("| Artigas");
 							System.out.println("| Canelones");
 							System.out.println("| Cerro Largo");
 							System.out.println("| Colonia");
@@ -76,16 +75,14 @@ public class gabriel_testzone {
 							System.out.println("| San José");
 							System.out.println("| Soriano");
 							System.out.println("| Tacuarembó");
-							");
 							System.out.println("NOTA: Es recomendable escribir los departamentos con la primera letra mayusculla.");
-						} else if (entradadep == "Artigas" || entradadep == "Canelones" || entradadep == "Cerro Largo" || entradadep == "Colonia" || entradadep == "Durazno" || entradadep == "Flores" || entradadep == "Florida" || entradadep == "Lavalleja" || entradadep == "Maldonado" || entradadep == "Montevideo" || entradadep == "Paysandú" || entradadep == "Treinta y Tres" || entradadep == "Rivera" || entradadep == "Rocha" || entradadep == "Salto" || entradadep == "San José" || entradadep == "Soriano" || entradadep == "Tacuarembó") {
-							depcount = 0;
-						} else {
-							System.out.println("_DEPARTAMENTO INVALIDO_");
-						}
+						} else if (entradadep.equals("Artigas") || entradadep.equals("Canelones") || entradadep.equals("Cerro Largo") || entradadep.equals("Colonia") || entradadep.equals("Durazno") || entradadep.equals("Flores") || entradadep.equals("Florida" || entradadep.equals("Lavalleja") || entradadep.equals("Maldonado") || entradadep.equals("Montevideo") || entradadep.equals("Paysandú") || entradadep.equals("Treinta y Tres") || entradadep.equals("Rivera") || entradadep.equals("Rocha") || entradadep.equals("Salto") || entradadep.equals("San José") || entradadep.equals("Soriano") || entradadep.equals("Tacuarembó")) {
+								departamentos[opcion] = entradadep;
+								depcount = 0;
+							} else {
+								System.out.println("_OPCION INVALIDA_");
+							}
 					}
-
-					System.out.println("Ingrese departamento / ingrese ´Lista´ para ver lista de departamentos.");
 
 					System.out.println("...");
 					ciudad[opcion] = entradaciudad;
@@ -96,11 +93,8 @@ public class gabriel_testzone {
 					System.out.println("");
 					System.out.println("_DATOS GUARDADOS_");
 					System.out.println();
-				} else {
-					System.out.println("_OPCION INVALIDA_");
 				}
-				break;
-
+					break;
 				//ELIMINAR REGISTRO---------------------------------------------------------------------------------
 			case 2:
 				System.out.println("Elija una casilla:");
@@ -118,6 +112,7 @@ public class gabriel_testzone {
 					posy[opcion] = 0;
 					posx[opcion] = 0;
 					centro[opcion] = 0;
+					departamentos[opcion] = "null";
 					System.out.println("");
 					System.out.println("_DATOS ELIMINADOS_");
 					System.out.println();
@@ -139,6 +134,7 @@ public class gabriel_testzone {
 					System.out.println("Posicion: (X:-"+ posx[opcion] +", Y:-"+ posy[opcion] +")");
 					System.out.println("Numero de centros: "+ centro[opcion]);
 					System.out.println("Numero de tambos: "+ tambos[opcion]);
+					System.out.println("Departamento: "+ departamentos[opcion]);
 					System.out.println("...");
 				}  //-------------------------------------------------------------------------------------------
 				break;
@@ -150,14 +146,6 @@ public class gabriel_testzone {
 				System.out.println("_OPCION INVALIDA_");
 				break;
 			}
-		}
+		}}}
 
-	}
 
-	/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-	public class ciudad {
-
-	}
-
-}
