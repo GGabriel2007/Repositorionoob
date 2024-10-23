@@ -51,6 +51,19 @@ public class gabriel_testzone {
 					System.out.println("Ingresar numero de tambos:");
 					entradatambos = tec1.nextInt();
 
+					int depcount = 1;
+
+					while (depcount == 1) {
+						System.out.println("Ingrese departamento / ingrese ´Lista´para ver lista de departamentos.");
+						entradadep = tec2.nextLine();
+						if (entradadep == "lista") {
+							System.out.println("Lista de departamentos:");
+							System.out.println("| ");
+						}
+					}
+
+					System.out.println("Ingrese departamento / ingrese ´Lista´ para ver lista de departamentos.");
+
 					System.out.println("...");
 					ciudad[opcion] = entradaciudad;
 					tambos[opcion] = entradatambos;
