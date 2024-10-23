@@ -61,7 +61,23 @@ public class gabriel_testzone {
 							System.out.println("| "Artigas);
 							System.out.println("| Canelones");
 							System.out.println("| Cerro Largo");
-							System.out.println("| ");
+							System.out.println("| Colonia");
+							System.out.println("| Durazno");
+							System.out.println("| Flores");
+							System.out.println("| Florida");
+							System.out.println("| Lavalleja");
+							System.out.println("| Maldonado");
+							System.out.println("| Montevideo");
+							System.out.println("| Paysandú");
+							System.out.println("| Treinta y Tres");
+							System.out.println("| Rivera");
+							System.out.println("| Rocha");
+							System.out.println("| Salto");
+							System.out.println("| San José");
+							System.out.println("| Soriano");
+							System.out.println("| Tacuarembó");
+							");
+							System.out.println("NOTA: ");
 						}
 					}
 
