@@ -77,7 +77,11 @@ public class gabriel_testzone {
 							System.out.println("| Soriano");
 							System.out.println("| Tacuarembó");
 							");
-							System.out.println("NOTA: ");
+							System.out.println("NOTA: Es recomendable escribir los departamentos con la primera letra mayusculla.");
+						} else if (entradadep == "Artigas" || entradadep == "Canelones" || entradadep == "Cerro Largo" || entradadep == "Colonia" || entradadep == "Durazno" || entradadep == "Flores" || entradadep == "Florida" || entradadep == "Lavalleja" || entradadep == "Maldonado" || entradadep == "Montevideo" || entradadep == "Paysandú" || entradadep == "Treinta y Tres" || entradadep == "Rivera" || entradadep == "Rocha" || entradadep == "Salto" || entradadep == "San José" || entradadep == "Soriano" || entradadep == "Tacuarembó") {
+							depcount = 0;
+						} else {
+							System.out.println("_DEPARTAMENTO INVALIDO_");
 						}
 					}
 
