@@ -13,7 +13,7 @@ public class cuarto_T {
 		int casillas = 50;
 
 		String ciudad[] = new String[casillas];
-		int tambos[] = new int[casillas * 2];
+		int tambos[] = new int[casillas ];
 		int posx[] = new int[casillas];
 		int posy[] = new int[casillas];
 		int centro[] = new int[casillas];
