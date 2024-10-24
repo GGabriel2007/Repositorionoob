@@ -147,5 +147,3 @@ public class cuarto_T {
 				break;
 			}
 		}}}
-
-
