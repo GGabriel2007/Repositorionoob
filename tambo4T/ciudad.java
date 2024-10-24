@@ -13,7 +13,6 @@ public class cuarto_T {
 		int casillas = 50;
 
 		String ciudad[] = new String[casillas];
-		String[] departamentos = new String[casillas];
 		int tambos[] = new int[casillas * 2];
 		int posx[] = new int[casillas];
 		int posy[] = new int[casillas];
@@ -50,51 +49,8 @@ public class cuarto_T {
 					entradacentro = tec1.nextInt();
 					System.out.println("Ingresar numero de tambos:");
 					entradatambos = tec1.nextInt();
-					int depcount = 1;
-					while (depcount == 1) {
-						System.out.println("Ingrese departamento / ingrese ´lista´ para ver lista de departamentos.");
-						entradadep = tec2.nextLine();
-						entradadep = tec2.nextLine();
-						if (entradadep.equals("lista") {
-							System.out.println("Lista de departamentos:");
-							System.out.println("| Artigas");
-							System.out.println("| Canelones");
-							System.out.println("| Cerro Largo");
-							System.out.println("| Colonia");
-							System.out.println("| Durazno");
-							System.out.println("| Flores");
-							System.out.println("| Florida");
-							System.out.println("| Lavalleja");
-							System.out.println("| Maldonado");
-							System.out.println("| Montevideo");
-							System.out.println("| Paysandú");
-							System.out.println("| Treinta y Tres");
-							System.out.println("| Rivera");
-							System.out.println("| Rocha");
-							System.out.println("| Salto");
-							System.out.println("| San José");
-							System.out.println("| Soriano");
-							System.out.println("| Tacuarembó");
-							System.out.println("NOTA: Es recomendable escribir los departamentos con la primera letra mayusculla.");
-						} else if (entradadep.equals("Artigas") || entradadep.equals("Canelones") || entradadep.equals("Cerro Largo") || entradadep.equals("Colonia") || entradadep.equals("Durazno") || entradadep.equals("Flores") || entradadep.equals("Florida" || entradadep.equals("Lavalleja") || entradadep.equals("Maldonado") || entradadep.equals("Montevideo") || entradadep.equals("Paysandú") || entradadep.equals("Treinta y Tres") || entradadep.equals("Rivera") || entradadep.equals("Rocha") || entradadep.equals("Salto") || entradadep.equals("San José") || entradadep.equals("Soriano") || entradadep.equals("Tacuarembó")) {
-								departamentos[opcion] = entradadep;
-								depcount = 0;
-							} else {
-								System.out.println("_OPCION INVALIDA_");
-							}
-					}
-
-					System.out.println("...");
-					ciudad[opcion] = entradaciudad;
-					tambos[opcion] = entradatambos;
-					posy[opcion] = entradaposy;
-					posx[opcion] = entradaposx;
-					centro[opcion] = entradacentro;
-					System.out.println("");
-					System.out.println("_DATOS GUARDADOS_");
-					System.out.println();
-				}
 					break;
+
 				//ELIMINAR REGISTRO---------------------------------------------------------------------------------
 			case 2:
 				System.out.println("Elija una casilla:");
@@ -112,7 +68,6 @@ public class cuarto_T {
 					posy[opcion] = 0;
 					posx[opcion] = 0;
 					centro[opcion] = 0;
-					departamentos[opcion] = "null";
 					System.out.println("");
 					System.out.println("_DATOS ELIMINADOS_");
 					System.out.println();
