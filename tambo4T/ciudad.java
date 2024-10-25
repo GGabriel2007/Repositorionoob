@@ -31,7 +31,7 @@ public class ciudad {
 			switch (opcion) {
 			//REGISTRAR CIUDAD
 			case 1:
-				
+				System.out.println("___ELIJA UN DEPARTAMENTO___");
 			}
 		}
 	}
