@@ -19,7 +19,8 @@ public class ciudad {
 		//MENU
 		while (ciudad_activa == 1) {
 			System.out.println("___MENU___");
-			System.out.println("");
+			System.out.println("(1)| Registrar ciudad");
+			System.out.println("(2)| ");
 		}
 	}
 
