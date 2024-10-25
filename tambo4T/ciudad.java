@@ -13,7 +13,6 @@ public class ciudad {
 		int posx[] = new int[casillas];
 		int posy[] = new int[casillas];
 		[] = new [casillas];
-		
 	}
 
 }
