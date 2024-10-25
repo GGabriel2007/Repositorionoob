@@ -32,6 +32,17 @@ public class ciudad {
 			//REGISTRAR CIUDAD
 			case 1:
 				System.out.println("___ELIJA UN DEPARTAMENTO___");
+				//VVV__probar codigo__VVVV
+				String[] departamentos = {
+            		"Artigas", "Canelones", "Cerro Largo", "Colonia", "Durazno",
+            		"Flores", "Florida", "Lavalleja", "Maldonado", "Montevideo",
+            		"Paysandú", "Río Negro", "Rivera", "Rocha", "Salto",
+            		"San José", "Soriano", "Tacuarembó", "Treinta y Tres"
+        	};
+
+        		for (String departamento : departamentos) {
+            		System.out.println(departamento);
+        	}
 			}
 		}
 	}
