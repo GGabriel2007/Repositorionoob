@@ -3,7 +3,7 @@ import java.util.*;
 public class ciudad {
 
 	public static void main(String[] args) {
-
+		//ARRAY
 		int casillas = 30;
 
 		String nombre[] = new String[casillas];
@@ -12,7 +12,9 @@ public class ciudad {
 		int tambos[] = new int[casillas];
 		int posx[] = new int[casillas];
 		int posy[] = new int[casillas];
-		[] = new [casillas];
+		int propietario[] = new int[casillas];
+		//VARIABLES
+		int opcion = 0, entrada = 0, 
 	}
 
 }
