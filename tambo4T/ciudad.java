@@ -28,6 +28,10 @@ public class ciudad {
 			System.out.println("(0)| Terminar administracion);
 			//OPCIONES
 			opcion = teclado1.nextInt();
+			switch (opcion) {
+			//REGISTRAR CIUDAD
+				
+			}
 		}
 	}
 
