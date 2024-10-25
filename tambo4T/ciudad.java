@@ -3,6 +3,9 @@ import java.util.*;
 public class ciudad {
 
 	public static void main(String[] args) {
+		//SCANNER
+		Scanner teclado1 = new Scanner(System.in);
+		Scanner teclado2 = new Scanner(System.in);
 		//ARRAY
 		int casillas = 30;
 
@@ -22,7 +25,9 @@ public class ciudad {
 			System.out.println("(1)| Registrar ciudad");
 			System.out.println("(2)| Eliminar ciudad");
 			System.out.println("(3)| Buscar ciudad");
-			System.out.println("(0)| );
+			System.out.println("(0)| Terminar administracion);
+			//OPCIONES
+			opcion = teclado1.nextInt();
 		}
 	}
 
