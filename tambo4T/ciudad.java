@@ -14,7 +14,13 @@ public class ciudad {
 		int posy[] = new int[casillas];
 		int propietario[] = new int[casillas];
 		//VARIABLES
-		int opcion = 0, entrada = 0, 
+		int ciudad_activa = 1, opcion = 0, entrada1 = 0;
+		String entrada2 = "null";
+		//MENU
+		while (ciudad_activa == 1) {
+			System.out.println("___MENU___");
+			System.out.println("");
+		}
 	}
 
 }
