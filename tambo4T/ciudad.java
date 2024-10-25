@@ -1,104 +1,22 @@
-package test_zone;
-
+package tambo_gabi_cuartoT;
 import java.util.*;
-
-public class cuarto_T {
+public class ciudad {
 
 	public static void main(String[] args) {
-
-		Scanner tec1 = new Scanner(System.in);
-		Scanner tec2 = new Scanner(System.in);
-
-		// COMFIGURACION DE VARIABLES
-		int casillas = 50;
-
-		String ciudad[] = new String[casillas];
-		int tambos[] = new int[casillas ];
+		
+		int casillas = 30;
+		
+		String nombre[] = new String[casillas];
+		String departamento[] = new String[casillas];
+		int centros[] = new int[casillas];
+		int tambos[] = new int[casillas];
 		int posx[] = new int[casillas];
 		int posy[] = new int[casillas];
-		int centro[] = new int[casillas];
+		[] = new [casillas];
+		
+		
+		
 
+	}
 
-		int activo = 1, opcion = 0, entradaposy = 0, entradaposx = 0, entradatambos = 0, entradacentro, entrada1 = 0; String entradadep, entradaciudad;
-
-		while (activo == 1) {
-			//MENU--------------------------------------------------------------------------------------------
-			System.out.println("_MENU_");
-			System.out.println("(1)| Registrar Ciudad");
-			System.out.println("(2)| Eliminar registro");
-			System.out.println("(3)| Buscar Registro");
-			System.out.println("(0)| Volver");
-			opcion = tec1.nextInt();
-
-			switch (opcion) {
-				//REGISTRAR CIUDAD--------------------------------------------------------------------------------
-			case 1:
-				System.out.println("Elija una casilla:");
-				for (int veces = 0 ; veces < casillas ; veces++) {
-					System.out.println("("+ veces +"): "+ ciudad[veces]);
-				}
-				opcion = tec1.nextInt();
-				if (ciudad[opcion] != "null") {
-					System.out.println("Ingrese nombre:");
-					entradaciudad = tec2.nextLine();
-					System.out.println("Ingrese posicion: (X)");
-					entradaposx = tec1.nextInt();
-					System.out.println("Ingrese posicion: (Y)");
-					entradaposy = tec2.nextInt();
-					System.out.println("Ingrese cantidad de centros de pasteurización:");
-					entradacentro = tec1.nextInt();
-					System.out.println("Ingresar numero de tambos:");
-					entradatambos = tec1.nextInt();
-					break;
-
-				//ELIMINAR REGISTRO---------------------------------------------------------------------------------
-			case 2:
-				System.out.println("Elija una casilla:");
-				for (int veces = 0 ; veces < casillas ; veces++) {
-					System.out.println("("+ veces +"): "+ ciudad[veces]);
-				}
-				opcion = tec1.nextInt();
-
-				if (ciudad[opcion] == "null") {
-					System.out.println("_OPCION INVALIDA_");
-				} else {
-					System.out.println("...");
-					ciudad[opcion] = "null";
-					tambos[opcion] = 0;
-					posy[opcion] = 0;
-					posx[opcion] = 0;
-					centro[opcion] = 0;
-					System.out.println("");
-					System.out.println("_DATOS ELIMINADOS_");
-					System.out.println();
-				}
-				break;
-
-				//BUSCAR REGISTRO-------------------------------------------------------------
-			case 3:
-				System.out.println("Elija una casilla:");
-				for (int veces = 0 ; veces < casillas ; veces++) {
-					System.out.println("("+ veces +"): "+ ciudad[veces]);
-				}
-				opcion = tec1.nextInt();
-
-				if (ciudad[opcion] == "null") {
-					System.out.println("_OPCION INVALIDA_");
-				} else {
-					System.out.println("Ciudad: "+ ciudad[opcion]);
-					System.out.println("Posicion: (X:-"+ posx[opcion] +", Y:-"+ posy[opcion] +")");
-					System.out.println("Numero de centros: "+ centro[opcion]);
-					System.out.println("Numero de tambos: "+ tambos[opcion]);
-					System.out.println("Departamento: "+ departamentos[opcion]);
-					System.out.println("...");
-				}  //-------------------------------------------------------------------------------------------
-				break;
-			case 0:
-				activo = 0;
-			break;
-
-			default:
-				System.out.println("_OPCION INVALIDA_");
-				break;
-			}
-		}}}
+}
