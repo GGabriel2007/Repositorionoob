@@ -30,6 +30,7 @@ public class ciudad {
 			opcion = teclado1.nextInt();
 			switch (opcion) {
 			//REGISTRAR CIUDAD
+			case 1:
 				
 			}
 		}
