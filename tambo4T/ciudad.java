@@ -42,7 +42,7 @@ public class ciudad {
             		"Flores", "Florida", "Lavalleja", "Maldonado", "Montevideo",
             		"Paysandú", "Río Negro", "Rivera", "Rocha", "Salto",
             		"San José", "Soriano", "Tacuarembó", "Treinta y Tres"
-        	};
+        	}
 
         		for (String departamento : departamentos) {
             		System.out.println(departamento);
