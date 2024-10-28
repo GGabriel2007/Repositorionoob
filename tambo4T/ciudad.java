@@ -6,6 +6,7 @@ public class ciudad {
 		//SCANNER
 		Scanner teclado1 = new Scanner(System.in);
 		Scanner teclado2 = new Scanner(System.in);
+
 		//ARRAY
 		int casillas = 30;
 
@@ -16,9 +17,11 @@ public class ciudad {
 		int posx[] = new int[casillas];
 		int posy[] = new int[casillas];
 		int propietario[] = new int[casillas];
+
 		//VARIABLES
 		int ciudad_activa = 1, opcion = 0, entrada1 = 0;
 		String entrada2 = "null";
+
 		//MENU
 		while (ciudad_activa == 1) {
 			System.out.println("___MENU___");
@@ -29,6 +32,7 @@ public class ciudad {
 			//OPCIONES
 			opcion = teclado1.nextInt();
 			switch (opcion) {
+
 			//REGISTRAR CIUDAD
 			case 1:
 				System.out.println("___ELIJA UN DEPARTAMENTO___");
